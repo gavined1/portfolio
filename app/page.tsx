@@ -12,9 +12,9 @@ export default function Home() {
           <h1 className="text-xl font-bold mb-4 sm:mb-0">Welcome</h1>
           <nav>
             <ul className="flex space-x-2 sm:space-x-4">
-              <li><Button variant="ghost" size="sm" asChild><a href="#overview" className="text-gray-300 hover:text-white">Overview</a></Button></li>
-              <li><Button variant="ghost" size="sm" asChild><a href="#repositories" className="text-gray-300 hover:text-white">Repos</a></Button></li>
-              <li><Button variant="ghost" size="sm" asChild><a href="#projects" className="text-gray-300 hover:text-white">Projects</a></Button></li>
+              <li><Button variant="ghost" size="sm" asChild><a href="#overview" className="text-gray-300 hover:text-blue-400 hover:bg-gray-800">Overview</a></Button></li>
+              <li><Button variant="ghost" size="sm" asChild><a href="#repositories" className="text-gray-300 hover:text-blue-400 hover:bg-gray-800">Repos</a></Button></li>
+              <li><Button variant="ghost" size="sm" asChild><a href="#projects" className="text-gray-300 hover:text-blue-400 hover:bg-gray-800">Projects</a></Button></li>
             </ul>
           </nav>
         </div>
