@@ -33,11 +33,11 @@ export default function Home() {
               <p className="text-muted-foreground text-center mb-4">Full Stack Developer</p>
               <div className="flex items-center justify-center text-muted-foreground mb-2">
                 <MapPin size={16} className="mr-2" />
-                <span>San Francisco, CA</span>
+                <span>Battambang, Cambodia</span>
               </div>
               <div className="flex items-center justify-center text-muted-foreground mb-4">
                 <Mail size={16} className="mr-2" />
-                <a href="mailto:john@example.com" className="text-primary hover:underline">john@example.com</a>
+                <a href="mailto:john@example.com" className="text-primary hover:underline">gavined@yandex.com</a>
               </div>
               <div className="border-t pt-4 mb-4">
                 <h3 className="font-bold mb-2 text-center">Organizations</h3>
@@ -68,8 +68,7 @@ export default function Home() {
               </CardHeader>
               <CardContent>
                 <p className="mb-4">
-                  Passionate full-stack developer with 5+ years of experience in building scalable web applications.
-                  Proficient in JavaScript, React, Node.js, and cloud technologies.
+                  JavaScript, React, Node.js, and cloud technologies.
                 </p>
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                   <Card>
@@ -173,7 +172,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t mt-8 py-6 text-center text-muted-foreground">
-        <p>&copy; 2023 John Doe. All rights reserved.</p>
+        <p>&copy; 2023 Gavin. All rights reserved.</p>
       </footer>
     </div>
   )
