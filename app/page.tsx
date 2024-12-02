@@ -29,7 +29,7 @@ export default function Home() {
                 <AvatarImage src="/placeholder.svg?height=192&width=192" alt="John Doe" />
                 <AvatarFallback>JD</AvatarFallback>
               </Avatar>
-              <h2 className="text-2xl font-bold text-center mb-2">Gavin</h2>
+              <h2 className="text-2xl font-bold text-center mb-2">Gavin Ed</h2>
               <p className="text-muted-foreground text-center mb-4">Full Stack Developer</p>
               <div className="flex items-center justify-center text-muted-foreground mb-2">
                 <MapPin size={16} className="mr-2" />
