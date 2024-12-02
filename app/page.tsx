@@ -26,7 +26,7 @@ export default function Home() {
           <Card className="bg-gray-900 border-gray-800">
             <CardContent className="pt-6">
               <Avatar className="w-32 h-32 sm:w-48 sm:h-48 mx-auto mb-4">
-                <AvatarImage src="/placeholder.svg?height=192&width=192" alt="Gavin Ed" />
+                <AvatarImage src="/IMG_20241101_105155.jpg" alt="Gavin Ed" />
                 <AvatarFallback>Gavin</AvatarFallback>
               </Avatar>
               <h2 className="text-2xl font-bold text-center mb-2 text-white">Gavin Ed</h2>
