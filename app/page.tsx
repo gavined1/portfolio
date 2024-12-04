@@ -30,7 +30,6 @@ export default function Home() {
                 <AvatarFallback>Gavin</AvatarFallback>
               </Avatar>
               <h2 className="text-2xl font-bold text-center mb-2 text-white">Gavin Ed</h2>
-              <p className="text-gray-400 text-center mb-4">Full Stack Developer</p>
               <div className="flex items-center justify-center text-gray-400 mb-2">
                 <MapPin size={16} className="mr-2" />
                 <span>Battambang, Cambodia</span>
