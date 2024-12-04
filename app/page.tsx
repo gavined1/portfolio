@@ -37,19 +37,15 @@ export default function Home() {
               </div>
               <div className="flex items-center justify-center text-gray-400 mb-4">
                 <Mail size={16} className="mr-2" />
-                <a href="mailto:john@example.com" className="text-blue-400 hover:underline">gavined@yandex.com</a>
+                <a href="mailto:gavined@yandex.com" className="text-blue-400 hover:underline">gavined@yandex.com</a>
               </div>
               <div className="border-t border-gray-800 pt-4 mb-4">
-                <h3 className="font-bold mb-2 text-center text-white">Organizations</h3>
-                <div className="flex justify-center space-x-2">
-                  <Avatar>
-                    <AvatarImage src="/placeholder.svg?height=32&width=32" alt="Organization 1" />
-                    <AvatarFallback>O1</AvatarFallback>
-                  </Avatar>
-                  <Avatar>
-                    <AvatarImage src="/placeholder.svg?height=32&width=32" alt="Organization 2" />
-                    <AvatarFallback>O2</AvatarFallback>
-                  </Avatar>
+                <h3 className="font-bold mb-2 text-center text-white">Links</h3>
+                <div className="flex flex-col space-y-2">
+                  <a href="https://github.com/yourusername" className="text-blue-400 hover:underline text-center">GitHub</a>
+                  <a href="https://linkedin.com/in/yourusername" className="text-blue-400 hover:underline text-center">LinkedIn</a>
+                  <a href="https://twitter.com/yourusername" className="text-blue-400 hover:underline text-center">Twitter</a>
+                  <a href="https://dev.to/yourusername" className="text-blue-400 hover:underline text-center">Dev.to</a>
                 </div>
               </div>
             </CardContent>
