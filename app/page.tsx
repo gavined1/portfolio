@@ -1,4 +1,4 @@
-import { Book, Code, FileText, HomeIcon, Mail, MapPin, Star, Users } from 'lucide-react'
+import { Book, Code, FileText, Github, HomeIcon, Mail, MapPin, Star, Users } from 'lucide-react'
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
@@ -42,10 +42,10 @@ export default function Home() {
               <div className="border-t border-gray-800 pt-4 mb-4">
                 <h3 className="font-bold mb-2 text-center text-white">Links</h3>
                 <div className="flex flex-col space-y-2">
-                  <a href="https://github.com/yourusername" className="text-blue-400 hover:underline text-center">GitHub</a>
-                  <a href="https://linkedin.com/in/yourusername" className="text-blue-400 hover:underline text-center">LinkedIn</a>
-                  <a href="https://twitter.com/yourusername" className="text-blue-400 hover:underline text-center">Twitter</a>
-                  <a href="https://dev.to/yourusername" className="text-blue-400 hover:underline text-center">Dev.to</a>
+                  <a href="https://github.com/gavined1" className="text-blue-400 hover:underline text-center flex items-center justify-center">
+                    <Github size={16} className="mr-2" />
+                    GitHub
+                  </a>
                 </div>
               </div>
             </CardContent>
